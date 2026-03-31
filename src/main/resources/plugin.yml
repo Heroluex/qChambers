@@ -1,0 +1,15 @@
+name: qChambers
+version: '${project.version}'
+main: org.heroluex.qChambers.QChambers
+api-version: '1.21'
+author: Heroluex
+description: Spawner and vault extensions for Trial Chambers on Paper 1.21.11
+commands:
+  qchambers:
+    description: Reloads the qChambers configuration
+    permission: qchambers.admin
+    usage: /qchambers reload
+permissions:
+  qchambers.admin:
+    description: Allows reloading qChambers
+    default: op

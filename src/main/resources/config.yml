@@ -1,0 +1,29 @@
+settings:
+  debug: false
+  scan-interval-ticks: 20
+
+spawner:
+  enabled: true
+  cooldown:
+    enabled: true
+    length-seconds: 90
+  hologram:
+    enabled: true
+    height-offset: 1.35
+    show-ready: false
+    ready-text: "&aSpawner ready"
+    cooldown-text: "&6Spawner cooldown\n&f{time}"
+    in-use-text: "&6Spawner in use"
+
+vault:
+  enabled: true
+  max-uses-per-player: 3
+  usage-cooldown-seconds: 300
+  hologram:
+    enabled: true
+    height-offset: 1.35
+    max-view-distance: 10.0
+    available-text: "&bVault\n&fUses left: &e{remaining}/{max}"
+    cooldown-text: "&bVault\n&fCooldown: &e{time}\n&fUses left: &e{remaining}/{max}"
+    exhausted-text: "&bVault\n&cNo uses left"
+    in-use-text: "&bVault\n&6Currently in use"
